@@ -30,11 +30,12 @@ label.label{
 }
 
 .input:checked + .label{
-    background-color: brown;
+    background-color: white;
 }
 
 .input:checked + .label .circle{
     animation: toggleOn .5s linear forwards;
+    background-color: black;
 }
 
 @keyframes toggleOn{
